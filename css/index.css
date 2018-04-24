@@ -13,21 +13,71 @@ html, body {
 }
 
 #header, #footer {
-	background: gray;
-	height: 100px;
+	height: 60px;
 }
 
 #header .wrapper, 
 #nav .navigate, 
-#banner .carousel,
 #body .main,
 #footer .declare {
 	width: 1100px;
 	margin: 0 auto;
+	position: relative;
 }
 
-#header .wrapper  .wrapper-logo {
+#header .wrapper {
+	height: 60px;
+	background: gray;
+}
 
+#header .wrapper  .logo {
+	padding-top: 10px;
+	margin-left: 10px;
+	float:left;
+	width: 140px;
+}
+
+#header .wrapper .word {
+	float:left;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 54px;
+	margin-left: 280px;
+}
+
+#nav .navigate {
+	height: 60px;
+	background: #333;
+}
+
+#nav .navigate ul{
+	margin-left: 200px;
+	height: 60px;
+}
+
+#nav .navigate ul li{
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
+}
+#nav .navigate ul li:hover {
+	background: #fff;
+}
+#nav .navigate ul li:hover a{
+	color: #000;
+}
+#nav .navigate ul li a {
+	color: #fff;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #fff;
+}
+
+#banner .carousel .swipe img{
+	display: block;
+	width: 100%;
 }
 
 
