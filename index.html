@@ -6,8 +6,10 @@
 	<title>Website</title>
 	
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/swiper-4.2.2.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-4.2.2.min.css">
 </head>
 
 <body>
@@ -21,7 +23,7 @@
 			</div>
 
 			<div class="word">
-				华为国际研发中心		
+				<a href="index.html">华为国际研发中心</a>		
 			</div>
 		</div>
 	</div>
@@ -43,11 +45,31 @@
 	<!-- banner -->
 	<div id="banner">
 		<div class="carousel">
-			<div  class="swipe">
-				<img src="image/swipe1.jpg">
-			</div>
-			<div  class="swipe">
-				<img src="image/swipe2.jpg">
+			<!-- 轮播容器 -->
+			<div class="swiper-container">
+				<!-- 轮播 -->
+				<div class="swiper-wrapper">
+					<!-- 轮播item -->
+					<div class="swiper-slide">
+						<img src="image/swipe1.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="image/swipe2.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="image/swipe1.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="image/swipe2.jpg">
+					</div>
+				</div>
+				
+				<!-- 分页器 -->
+				<div class="swiper-pagination"></div>
+
+				<!-- 导航按钮 -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
 			</div>
 		</div>
 	</div>
@@ -55,14 +77,27 @@
 	<!-- body -->
 	<div id="body">
 		<div class="main">
-
+			
 		</div>
 	</div>
 
 	<!-- footer -->
 	<div id="footer">
-		<div clss="declare">
-
+		<div class="declare">
+			<div class="left">
+				<div class="item"><a>网站地图</a></div>
+				<div class="item"><a>联系我们</a></div>
+				<div class="item"><a>加入我们</a></div>
+				<div class="item"><a>使用申明</a></div>
+				<div class="item"><a>隐私政策</a></div>
+				</ul>
+			</div>
+		
+			<div class="right">
+				<p>
+					© 2018 All Rights Reserved   华为(中国)有限公司 沪ICP备14007641号
+				</p>
+			</div>
 		</div>
 	</div>
 
