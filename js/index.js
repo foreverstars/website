@@ -12,3 +12,16 @@ var mySwiper = new Swiper('.swiper-container', {
 		prevEl: '.swiper-button-prev'
 	} // 导航
 })
+
+/// onscroll
+window.onscroll= function () {
+	if (document.documentElement.scrollTop > 200) {
+		$('.gotop').show()
+	} else {
+		$('.gotop').hide()
+	}
+}
+
+$('.gotop').click(function(){
+	document.documentElement.scrollTop = 0
+})
