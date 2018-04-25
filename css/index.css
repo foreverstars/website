@@ -51,7 +51,7 @@ html, body {
 
 #nav .navigate {
 	height: 60px;
-	background: #333;
+	background: #41b3d7;
 }
 
 #nav .navigate ul{
@@ -66,11 +66,11 @@ html, body {
 	font-size: 16px;
 }
 #nav .navigate ul li:hover {
-	background: #fff;
+	background: #12a0cd;
 }
-#nav .navigate ul li:hover a{
-	color: #000;
-}
+/*#nav .navigate ul li:hover a{
+	color: #333;
+}*/
 #nav .navigate ul li a {
 	color: #fff;
 	font-weight: bold;
